@@ -33,6 +33,8 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-right: solid 1px #dee2e6;
+    padding-right: 5%;
 }
 
 .linkarea {
@@ -40,6 +42,7 @@ body, html {
     flex-direction: row;
     justify-content: center;
     margin-left: 50%;
+    width: min-content;
 }
 
 .link {
@@ -58,4 +61,13 @@ body, html {
     margin-bottom: 0%;
     margin-left: 5%;
     height: fit-content;
+}
+
+.top {
+    display: flex;
+}
+
+.rhalf {
+    padding-left: 5%;
+    width: 50%;
 }
