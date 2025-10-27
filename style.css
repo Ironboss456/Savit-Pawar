@@ -16,6 +16,7 @@ body, html {
     border: none;
     background-color: #4ca3e5;
     color: white;
+    text-decoration: none;
 }
 
 .photo {
@@ -71,4 +72,27 @@ body, html {
 .rhalf {
     padding-left: 5%;
     width: 50%;
+}
+
+.rightnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 11%;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.header {
+    padding-bottom: 5px;
+    border-bottom: solid 1px #adb0b3;
+}
+
+.projects {
+    width: 10%;
+    height: 10%;
 }
