@@ -9,6 +9,7 @@
 body, html {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
 }
 
 .navbut {
