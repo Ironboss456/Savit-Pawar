@@ -92,7 +92,25 @@ body, html {
     border-bottom: solid 1px #adb0b3;
 }
 
-.projects {
+.projectimage {
     width: 10%;
     height: 10%;
+    border: solid 1px black;
+    border-radius: 10%;
+    margin-right: 2%;
+}
+
+.projects {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.info {
+    margin-bottom: 5%;
+}
+
+.projectinfo {
+    font-size: larger;
 }
